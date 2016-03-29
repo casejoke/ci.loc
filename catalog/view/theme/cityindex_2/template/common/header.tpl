@@ -40,18 +40,18 @@
     <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
   <?php } ?>
   <!-- Template core CSS -->
-  <link href="catalog/view/theme/cityindex/assets/css/styles.css" rel="stylesheet">
+  <link href="catalog/view/theme/cityindex_2/assets/css/styles.css" rel="stylesheet">
   <?php foreach ($styles as $style) { ?>
     <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
   <?php } ?>
-  
+
   <script type="text/javascript">
     var mobile = <?php echo $mobile ;?>;
     var tablet = <?php echo $tablet ;?>;
   </script>
 
   <?php echo $google_analytics; ?>
-  
+
 
 </head>
 <body class="<?php echo $class; ?>">
@@ -73,7 +73,7 @@
                 <!-- YOU LOGO HERE -->
                 <a class="navbar-brand" href="/">
                     <!-- IMAGE OR SIMPLE TEXT -->
-                    cityindex
+                    cityindex_2
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="custom-collapse">
@@ -92,7 +92,7 @@
         <div class="copyright">
             <ul class="info_copy">
                 <li><a href="info@citymetrix.ru">info@citymetrix.ru</a></li>
-               <!--  <li><a href="">+7 (495) 660-62-47</a></li> --><!-- 
+               <!--  <li><a href="">+7 (495) 660-62-47</a></li> --><!--
                 <li class="menu__text_subscribe">Подписаться на обновления рейтингов</li> -->
                 <!-- <li>
                     <div class="input-group">
@@ -103,13 +103,11 @@
                 </li> -->
             </ul>
             <div class="social-icons m-b-20">
-                <a href="http://vk.com/cityindex" target="_blank" class="fa fa-vk"></a>
-                <a href="https://www.facebook.com/cityindex" target="_blank" class="fa fa-facebook facebook"></a>
+                <a href="http://vk.com/cityindex_2" target="_blank" class="fa fa-vk"></a>
+                <a href="https://www.facebook.com/cityindex_2" target="_blank" class="fa fa-facebook facebook"></a>
             </div>
             <p>© 2015-2016 Сityindex</p>
         </div>
         <!-- /SOCIAL LINKS -->
     </div>
     <!-- /SIDEBAR -->
-
-
