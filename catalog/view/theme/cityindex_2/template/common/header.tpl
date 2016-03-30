@@ -55,59 +55,54 @@
 
 </head>
 <body class="<?php echo $class; ?>">
-<!-- PRELOADER -->
-    <div class="page-loader" style="display: none;">
-        <div class="loader">Loading...</div>
-    </div>
-    <!-- /PRELOADER -->
-    <!-- SIDEBAR -->
-    <div class="sidebar" id="top">
-        <nav class="navbar navbar-custom font-alt">
-            <div class="navbar-header navbar-custom">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+<nav class="navbar   headermenu mb-0 ">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row mb-8 sm-mb-19">
+        <div class="col-xs-12">
+            <div class="navbar-header headermenu__navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- YOU LOGO HERE -->
-                <a class="navbar-brand" href="/">
-                    <!-- IMAGE OR SIMPLE TEXT -->
-                    cityindex_2
+                <a class="navbar-brand hidden-xs " href="#">
+                    <div class="menulogo"></div>
+                </a>
+                <a class="navbar-brand navbar-right headermenu__bbalogopos hidden-xs" href="#">
+                    <div class="logobba"></div>
+                </a>
+                <a class="navbar-brand visible-xs" href="#">
+                    <div class="menulogo"></div>
+                </a>
+                <a class=" visible-xs" href="#">
+                    <div class="logobba"></div>
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="custom-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="/about_us">О проекте</a></li>
-                    <li><a href="/rating_frack" >Рейтинг фракций Государственной думы РФ</a></li>
-                    <li><a href="/rating_department">Рейтинг департаментов</a></li>
-                    <li><a href="/rating_official">Рейтинг чиновников Правительства Москвы</a></li>
-                    <li><a href="/rating_deputy">Рейтинг депутатов Мосгордумы</a></li>
-                    <li><a href="//www.citymetrix.ru/" target="_blank">Рейтинги госучреждений и бизнеса</a></li>
-                    <li><a href="/contact-us">Заказать исследование</a></li>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12">
+            <hr class="hr_black"></div>
+        </div>
+        <div class="row">
+        <div class="col-xs-12">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse headermenu__collapse " id="menu">
+                <ul class="nav navbar-nav headermenu__collapse__menulist robo_reg">
+                    <li><a href="about_us">О проекте </a></li>
+                    <li><a href="/list-media">Медиа</a></li>
+                    <li><a href="/list-sport">Спорт</a></li>
+                    <li><a href="/list-cultura">Культура</a></li>
+                    <li><a href="/list-economika">Экономика</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right headermenu__collapse__menulist--right robo_reg hidden">
+                    <li class="mr-16"><a href="#">Заказчикам</a></li>
                 </ul>
             </div>
-        </nav>
-        <!-- SOCIAL LINKS -->
-        <div class="copyright">
-            <ul class="info_copy">
-                <li><a href="info@citymetrix.ru">info@citymetrix.ru</a></li>
-               <!--  <li><a href="">+7 (495) 660-62-47</a></li> --><!--
-                <li class="menu__text_subscribe">Подписаться на обновления рейтингов</li> -->
-                <!-- <li>
-                    <div class="input-group">
-                        <input type="email" id="email" name="cemail" class="form-control menu__input-in-menu" placeholder="E-mail*" required="" data-validation-required-message="Введите Email.">
-                        <div class="input-group-addon menu__input-in-menu-btn"><i class="fa fa-paper-plane-o"></i></div>
-                    </div>
-                    <p class="help-block text-danger"></p>
-                </li> -->
-            </ul>
-            <div class="social-icons m-b-20">
-                <a href="http://vk.com/cityindex_2" target="_blank" class="fa fa-vk"></a>
-                <a href="https://www.facebook.com/cityindex_2" target="_blank" class="fa fa-facebook facebook"></a>
-            </div>
-            <p>© 2015-2016 Сityindex</p>
-        </div>
-        <!-- /SOCIAL LINKS -->
+            <!-- /.navbar-collapse -->
+        </div></div>
     </div>
-    <!-- /SIDEBAR -->
+    <!-- /.container -->
+</nav>

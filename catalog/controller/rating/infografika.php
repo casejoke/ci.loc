@@ -1,11 +1,11 @@
 <?php
-class ControllerCommonHome extends Controller {
+class ControllerRatingInfografika extends Controller {
   private $error = array();
   public function index() {
     //загрузим язык
-    $this->load->language('common/home');
+    $this->load->language('rating/infografika ');
 
-    //$this->response->redirect($this->url->link('rating/department', '', 'SSL'));
+
 
     $data['heading_title'] = $this->config->get('config_meta_title');
     //seo
@@ -17,7 +17,9 @@ class ControllerCommonHome extends Controller {
       $this->document->addLink(HTTP_SERVER, 'canonical');
     }
 
-
+    $this->document->addScript('catalog/view/module_script/infografika.js');
+    $this->document->addStyle('/infografika/css/perfect-scrollbar.css');
+    $this->document->addStyle('/infografika/css/style.css');
 
     $data['column_left'] = $this->load->controller('common/column_left');
     $data['column_right'] = $this->load->controller('common/column_right');
@@ -26,10 +28,10 @@ class ControllerCommonHome extends Controller {
     $data['footer'] = $this->load->controller('common/footer');
     $data['header'] = $this->load->controller('common/header');
 
-    if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/home.tpl')) {
-      $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/home.tpl', $data));
+    if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/rating/infografika.tpl')) {
+      $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/rating/infografika.tpl', $data));
     } else {
-      $this->response->setOutput($this->load->view('default/template/common/home.tpl', $data));
+      $this->response->setOutput($this->load->view('default/template/rating/infografika.tpl', $data));
     }
   }
   protected function validate() {

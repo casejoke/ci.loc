@@ -1,133 +1,51 @@
-         <!-- FOOTER -->
-        <footer class="footer module-overlay-dark-3">
-            <div class="container-fluid container-custom">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-2 col-md-2">
-
-                          <div class="footer__logo"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-10 col-md-6">
-                                <p class="footer__text"> © Cityindex. Рейтинги заметности политических
-объектов и персон в социальных медиа. Использование
-материалов в СМИ разрешено при размещении ссылки
-на публикацию на сайте Cityindex и указании периода
-исследования публикуемых данных.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-4 mtb-5"><div class="footer__logo--bba"></div></div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 mtb-5 "><div class="footer__logo--citymetrix"></div></div>
-                        <div class="col-xs-12 col-sm-4 col-md-4 mtb-5"><div class="footer__logo--mind_scan"></div></div>
-                    </div>
-                       </div>
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-1">  <div class="copyright">
-            <ul class="info_copy">
-                <li class="menu__text_subscribe">Подписаться на обновления рейтингов</li>
-                <li>
-                    <div class="input-group">
-                        <input type="email" id="email" name="cemail" class="form-control menu__input-in-menu" placeholder="E-mail*" required="" data-validation-required-message="Введите Email.">
-                        <div class="input-group-addon menu__input-in-menu-btn" data-toggle="modal" data-target="#infosubs"><i class="fa fa-envelope-o"></i></div>
-                    </div>
-                    <p class="help-block text-danger"></p>
-                </li>
-                <li><a href="">+7 (495) 660-62-47</a></li>
-                <li><a href="info@citymetrix.ru">info@citymetrix.ru</a></li>
-
-
-
-            </ul>
-            <div class="social-icons m-b-20">
-                <a href="http://vk.com/citymetrix" target="_blank" class="footer__ico_vk"></a>
-                <a href="http://www.facebook.com/citymetrix" target="_blank" class="footer_ico_fb"></a>
-            </div>
-
-        </div>  </div>
-
-                </div>
-
-                 <div class="row">
-                     <div class="col-md-12">
-                      <ul class="footer__menu hidden-xs">
-                    <li><a href="/about_us">О проекте</a></li>
-                    <li><a href="/rating_department">Рейтинг департаментов</a></li>
-                    <li><a href="/rating_official">Рейтинг чиновников </a></li>
-                    <li><a href="/rating_deputy">Рейтинг депутатов </a></li>
-                    <li><a href="/contact-us">Заказать исследование</a></li>
+<section class="footer_block mt-30">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-7 col-md-9 pl-0 hidden-xs ">
+             <ul class="footer_block__menu robo_reg">
+                    <li><a href="#">О проекте </a></li>
+                    <li><a href="#">Медиа</a></li>
+                    <li><a href="#">Спорт</a></li>
+                    <li><a href="#">Культура</a></li>
+                    <li><a href="#">Экономика</a></li>
                 </ul>
-                     </div>
-                 </div>
-
-
-
-                <div class="row">
-                    <div class="col-sm-12">
-                                               <div class="copyright text-center font-alt">
-                            © 2015-2016 <a href="#">cityindex  </a>,Все права защищены.
-                        </div>
-                    </div>
-                </div>
-                |
-                <!-- SCROLLTOP -->
-                <a class="to-top-link" href="#top">
-                    <i class="fa fa-angle-up"></i>
-                </a>
             </div>
-        </footer>
-        <!-- /FOOTER -->
-    </div>
-    <!-- /WRAPPER -->
-    <div class="modal fade " id="regulations" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content modal-custom">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Требования к публикациям в СМИ</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="panel-body">
-                        <ol>
-                            <li>Гиперссылка на публикацию на сайте <a class="modal__link" href="//city-index.org">city-index.org</a> </li>
-                            <li>Период исследования, за который публикуются данные.</li>
-                        </ol>
-                    </div>
-                </div>
+            <div class="col-xs-12 col-sm-5 col-md-3">
+              <div class="input-group footer_block__input">
+
+<input type="text" class="form-control footer_block__input__form-control robo_bold" placeholder="подписка..." >
+     </div> <a href="# " class="btn  robo_bold bnt_input">ок</a>
             </div>
         </div>
-    </div>
-    <div class="modal fade " id="metod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content modal-custom">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Методика составления рейтинга</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="panel-body">
-                        Индекс заметности объекта в социальных медиа рассчитывается на основе двух показателей: совокупного охвата всех сообщений с упоминаниями этого объекта и количества социальных действий пользователей, связанных с объектом (репостов соответствующих сообщений, комментариев к ним, лайков и других). Для расчёта индекса на первом этапе вычисляется общий аудиторный охват всех сообщений с упоминаниями объекта и его соотношение с суммой всех социальных действий, сгенерированных данными сообщениями. В зависимости от величины этого соотношения объекту присваивается весовой коэффициент. На втором этапе данный весовой коэффициент применяется к общему аудиторному охвату сообщений с упоминаниями объекта, после чего и вычисляется средний индекс заметности объекта в социальных медиа в рассматриваемый период.
-                    </div>
-                </div>
-            </div>
+        <div class="row mt-38">
+            <div class="col-xs-2 col-sm-2 col-md-1 pl-0"> <div class="mindscan_logo"></div> </div>
+            <div class="col-xs-7 col-sm-6 col-md-5 pl-0"><p class="footer_block__text robo_reg">&copy;&nbsp;Cityindex. Рейтинги заметности политических объектов и&nbsp;персон в&nbsp;социальных медиа. Использование материалов в&nbsp;СМИ разрешено при размещении ссылки на&nbsp;публикацию на&nbsp;сайте Cityindex и&nbsp;указании периода исследования публикуемых данных.</p></div>
+            <div class="col-xs-3 col-sm-4 col-md-3 col-md-offset-3"> <div class="footer_block__social">
+                   <ul class="footer_block__social__list">
+
+                     <li class="footer_block__social__item"><a  href="#"><i class="fa fa-vk"></i></a></li>
+                     <li class="footer_block__social__item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                   </ul>
+
+
+            </div>  </div>
         </div>
-    </div>
+        <div class="row mt-90">
+          <div class="col-xs-12 col-sm-3 col-md-2 pl-0"> <div class="text-left footer_block__text--addres robo_reg ">+7 (495) 660-62-47</div></div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 pl-0"><div class="text-center footer_block__text--addres robo_reg ">Brain Box Analytics. 2015—2016 ©</div></div>
+          <div class="col-xs-12 col-sm-3 col-md-2 col-md-offset-2 pl-0"><div class="text-right footer_block__text--addres robo_reg "><a href="mailto:info@cityindex.org">info@cityindex.org</a></div></div>
 
-    <div class="modal fade " id="infosubs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content modal-custom">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Спасибо за подписку</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="panel-body">
-                       Спасибо, что отправили заявку на еженедельную рассылку. Проверьте Ваш e-mail для подтверждения подписки.
-                    </div>
-                </div>
-            </div>
+
         </div>
+
+
+
     </div>
-
-
-<script src="catalog/view/theme/cityindex_2/assets/js/script.js" type="text/javascript"></script>
+</section>
+<script src="catalog/view/theme/cityindex_2/assets/js/main.js" type="text/javascript"></script>
 <?php foreach ($scripts as $script) { ?>
   <script src="<?php echo $script; ?>" type="text/javascript"></script>
 <?php } ?>
 </body>
+
 </html>

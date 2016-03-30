@@ -384,9 +384,9 @@ class ControllerCatalogInformation extends Controller {
 		} else {
 			$data['image'] = '';
 		}
-		
+
 		$this->load->model('tool/image');
-		
+
 		if (isset($this->request->post['image'])) {
 			$data['thumb'] = $this->model_tool_image->resize($this->request->post['image'], 100, 100);
 		} elseif (!empty($information_info)) {
@@ -394,7 +394,7 @@ class ControllerCatalogInformation extends Controller {
 		} else {
 			$data['thumb'] = $this->model_tool_image->resize('no_image.png', 100, 100);;
 		}
-		
+
 		$data['no_image'] = $this->model_tool_image->resize('no_image.png', 100, 100);
 
 
@@ -468,7 +468,7 @@ class ControllerCatalogInformation extends Controller {
 
 		foreach ($this->request->post['information_description'] as $language_id => $value) {
 			if ((utf8_strlen($value['title']) < 3) || (utf8_strlen($value['title']) > 64)) {
-				$this->error['title'][$language_id] = $this->language->get('error_title');
+			//	$this->error['title'][$language_id] = $this->language->get('error_title');
 			}
 
 			if (utf8_strlen($value['description']) < 3) {
